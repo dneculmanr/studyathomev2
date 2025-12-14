@@ -1,9 +1,10 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'studyathome',
-  webDir: 'www'
+  appId: 'cl.studyathome.app',
+  appName: 'StudyAtHome',
+  webDir: 'www',
+  bundledWebRuntime: false
 };
 
 export default config;
